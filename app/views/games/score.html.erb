@@ -1,0 +1,8 @@
+<div class="container mt-5">
+  <h2 class="mb-3">Result</h2>
+  <p> <%= score_and_message(@word, @letters) %> </p>
+  <p> <%= @message %> </p>
+  <p> <%= @score_message %> </p>
+
+  <%= link_to "Play again", new_path %>
+</div>
